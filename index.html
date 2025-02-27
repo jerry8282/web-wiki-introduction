@@ -102,11 +102,13 @@
 
       <section id=comment>
         <div class="comment-writing-container">
-          <form>
-            <fieldset>
-              <legend>댓글 쓰기</legend>
-              <textarea placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."></textarea>
-            </fieldset>
+          <form class="comment-form">
+            <div class="comment-box">
+              <span class="comment-icon">🚀</span>
+              <input type="text" class="comment-input" placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁드립니다.">
+              <button type="reset" class="cancel-button">취소</button>
+              <button type="button" class="submit-button">등록</button>
+            </div>
           </form>
         </div>
         <ul class="comment-list">
